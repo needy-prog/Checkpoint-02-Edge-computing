@@ -127,20 +127,6 @@ Cada registro ocupa **10 bytes**:
 
 ---
 
-## 💾 Bibliotecas Necessárias
-
-Instale no **Arduino IDE**:
-
-```text
-LiquidCrystal_I2C
-RTClib
-EEPROM
-DHT sensor library
-Wire
-```
-
----
-
 ## 🚀 Como Executar o Projeto
 
 1. **Monte o circuito** conforme o esquema elétrico.  
