@@ -1,1 +1,1 @@
-# Checkpoint-02-Edge-computing
+Checkpoint 2 - Edge Computing
