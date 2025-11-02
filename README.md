@@ -4,7 +4,9 @@
 Este projeto implementa um **sistema inteligente de monitoramento ambiental** que mede **luminosidade, temperatura e umidade**, utilizando conceitos de **Edge Computing** com **Arduino**.  
 O sistema detecta quando as condições do ambiente ultrapassam limites seguros e emite **alertas visuais e sonoros**, além de registrar automaticamente os eventos em **memória EEPROM**.  
 Os dados e configurações são acessados por um **menu interativo controlado via joystick**, com interface exibida em um **display LCD 16x2 I2C**.
-
+---
+## ⚙️ Por onde acessar
+** https://wokwi.com/projects/444890370237225985 **
 ---
 
 ## 👨‍💻 Autores
@@ -55,29 +57,6 @@ Os dados e configurações são acessados por um **menu interativo controlado vi
 | **EEPROM interna** | Armazena logs e configurações | — |
 
 ---
-
-## 🔌 Esquema Elétrico (Resumo de Ligações)
-
-```
-          +----------------------+
-          |      Arduino UNO     |
-          +----------------------+
-             |         |         |
-             |         |         |
-          [A0] <--- LDR + 10kΩ ---> GND
-          [A1] <--- VRx Joystick
-          [A2] <--- VRy Joystick
-          [D7] <--- Botão Joystick (SW)
-          [D6] <--- DHT22 (Sinal)
-          [D2] ---> LED Vermelho
-          [D3] ---> LED Amarelo
-          [D4] ---> LED Verde
-          [D5] ---> Buzzer
-          [SDA/SCL] <--> LCD 16x2 I2C + RTC DS1307
-          5V / GND -> Alimentação geral
-```
-
-💡 **Dica:** use resistores de 220 Ω para os LEDs e verifique o endereçamento I2C do LCD (geralmente 0x27 ou 0x3F).
 
 ---
 
@@ -200,6 +179,3 @@ Luz:42%
 
 ---
 
-## 🧑‍🏫 Licença
-Projeto desenvolvido para fins **acadêmicos e educacionais**.  
-É permitido o uso e modificação com citação dos autores originais.
