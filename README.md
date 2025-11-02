@@ -50,7 +50,7 @@ Os dados e configurações são acessados por um **menu interativo controlado vi
 | **Display LCD 16x2 I2C** | Interface visual | SDA/SCL |
 | **Joystick analógico** | Controle do menu | VRx: A1 / VRy: A2 / SW: D7 |
 | **LED Verde** | Ambiente normal | D4 |
-| **LED Amarelo** | — | D3 |
+| **LED Amarelo** | Em risco | D3 |
 | **LED Vermelho** | Alerta crítico | D2 |
 | **Buzzer** | Alerta sonoro | D5 |
 | **RTC DS1307** | Relógio em tempo real | SDA/SCL |
