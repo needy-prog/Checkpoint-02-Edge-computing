@@ -5,8 +5,8 @@ Este projeto implementa um **sistema inteligente de monitoramento ambiental** qu
 O sistema detecta quando as condições do ambiente ultrapassam limites seguros e emite **alertas visuais e sonoros**, além de registrar automaticamente os eventos em **memória EEPROM**.  
 Os dados e configurações são acessados por um **menu interativo controlado via joystick**, com interface exibida em um **display LCD 16x2 I2C**.
 ---
-## ⚙️ Por onde acessar
-** https://wokwi.com/projects/444890370237225985 **
+## ⚙️ Por onde acessar:
+- https://wokwi.com/projects/444890370237225985 
 ---
 
 ## 👨‍💻 Autores
